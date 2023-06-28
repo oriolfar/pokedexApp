@@ -3,8 +3,14 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import { HomeScreen } from '../screens/HomeScreen';
 import { PokemonScreen } from '../screens/PokemonScreen';
+import { SimplePokemon } from '../interfaces/pokemonInterfaces';
 
-const Stack = createStackNavigator();
+export type RootStackParams = {
+    HomeScreen: undefined,
+    PokemonScreen: { simplePokemon: SimplePokemon, bgColor: string, titleColor: string }
+}
+
+const Stack = createStackNavigator<RootStackParams>();
 
 export const Navigator = () => {
     return (
@@ -17,7 +23,7 @@ export const Navigator = () => {
             }}
         >
             <Stack.Screen name="HomeScreen" component={HomeScreen} />
-            <Stack.Screen name="Notifications" component={PokemonScreen} />
+            <Stack.Screen name="PokemonScreen" component={PokemonScreen} />
         </Stack.Navigator>
     );
 }
