@@ -4,11 +4,11 @@ This is a mobile application developed using React Native CLI that serves as a P
 
 ## 📷 Screenshots
 
-![Pokemon List](./screenshots/Screenshot_all_main.png)
-*Screenshot: Pokemon List*
+<img src="./screenshots/Screenshot_all_main.png" alt="Pokemon List" width="250" height="500">
+<p><em>Screenshot: Pokemon List</em></p>
 
-![Pokemon Details](./screenshots/Screenshot_charmander.png)
-*Screenshot: Pokemon Details*
+<img src="./screenshots/Screenshot_charmander.png" alt="Pokemon Details" width="250" height="500">
+<p><em>Screenshot: Pokemon Details</em></p>
 
 ## ✨ Features
 
@@ -16,17 +16,19 @@ This is a mobile application developed using React Native CLI that serves as a P
 - **Pokemon Details Page:** Clicking on a specific Pokemon in the list opens a dedicated page displaying detailed information about the selected Pokemon, including its specifications, abilities, and other relevant details.
 - **Search Bar:** The app includes a search bar that enables users to filter Pokemon by name. As the user types in the search query, the list dynamically updates to display matching Pokemon.
 
-![Pokemon Multisearch](./screenshots/Screenshot_multisearch.png)
-![Pokemon Multisearch](./screenshots/Screenshot_charmaleon.png)
-*Screenshot: Pokemon List*
+<div align="center">
+  <img src="./screenshots/Screenshot_multisearch.png" alt="Pokemon Multisearch" width="220" height="440">
+  <img src="./screenshots/Screenshot_charmaleon.png" alt="Pokemon Multisearch" width="220" height="440">
+<p align="center"><em>Screenshot: Pokemon List</em></p>
 
-![Pokemon LoadMore](./screenshots/Screenshot_loadMore.png)
-![Pokemon PokemonFound](./screenshots/Screenshot_loadRayquaza.png)
-![Pokemon PokemonDetails_Rayquaza](./screenshots/Screenshot_rayquaza).png)
-*Screenshot: Pokemon Load More*
+<div align="center">
+  <img src="./screenshots/Screenshot_loadMore.png" alt="Pokemon LoadMore" width="220" height="440">
+  <img src="./screenshots/Screenshot_loadRayquaza.png" alt="Pokemon PokemonFound" width="220" height="440">
+  <img src="./screenshots/Screenshot_rayquaza.png" alt="Pokemon PokemonDetails_Rayquaza" width="220" height="440">
+<p align="center"><em>Screenshot: Pokemon Load More</em></p>
 
-![Pokemon PokemonDetails_SpritesModal](./screenshots/Screenshot_spritesModal).png)
-*Screenshot: Pokemon Sprites Modal*
+<img src="./screenshots/Screenshot_spritesModal.png" alt="Pokemon PokemonDetails_SpritesModal" width="220" height="440">
+<p align="center"><em>Screenshot: Pokemon Sprites Modal</em></p>
 
 
 ## 🛠️ Technologies Used
