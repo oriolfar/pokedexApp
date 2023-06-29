@@ -2,13 +2,11 @@
 
 This is a mobile application developed using React Native CLI that serves as a Pokedex. The app retrieves Pokemon data from the PokeAPI (https://pokeapi.co/api/v2/) using an API integration. It features lazy loading infinite scroll for the Pokemon list, a detailed Pokemon page with specifications, and a search bar to filter Pokemon by name. The entire project is built using TypeScript.
 
-## 📷 Screenshots
-
-<img src="./screenshots/Screenshot_all_main.png" alt="Pokemon List" width="250" height="500">
-<p><em>Screenshot: Pokemon List</em></p>
-
-<img src="./screenshots/Screenshot_charmander.png" alt="Pokemon Details" width="250" height="500">
-<p><em>Screenshot: Pokemon Details</em></p>
+<div align="center">
+  <img src="./screenshots/Screenshot_all_main.png" alt="Pokemon List" width="250" height="500">
+  <img src="./screenshots/Screenshot_charmander.png" alt="Pokemon Details" width="250" height="500">
+  <p></p><em>Look of the App Android & iOS</em></p>
+</div>
 
 ## ✨ Features
 
@@ -19,23 +17,31 @@ This is a mobile application developed using React Native CLI that serves as a P
 <div align="center">
   <img src="./screenshots/Screenshot_multisearch.png" alt="Pokemon Multisearch" width="220" height="440">
   <img src="./screenshots/Screenshot_charmaleon.png" alt="Pokemon Multisearch" width="220" height="440">
+</div>
 <p align="center"><em>Screenshot: Pokemon List</em></p>
 
 <div align="center">
   <img src="./screenshots/Screenshot_loadMore.png" alt="Pokemon LoadMore" width="220" height="440">
   <img src="./screenshots/Screenshot_loadRayquaza.png" alt="Pokemon PokemonFound" width="220" height="440">
   <img src="./screenshots/Screenshot_rayquaza.png" alt="Pokemon PokemonDetails_Rayquaza" width="220" height="440">
+</div>
 <p align="center"><em>Screenshot: Pokemon Load More</em></p>
 
-<img src="./screenshots/Screenshot_spritesModal.png" alt="Pokemon PokemonDetails_SpritesModal" width="220" height="440">
+<div align="center">
+  <img src="./screenshots/Screenshot_spritesModal.png" alt="Pokemon PokemonDetails_SpritesModal" width="220" height="440">
 <p align="center"><em>Screenshot: Pokemon Sprites Modal</em></p>
 
+
+
+<div align="left">
 
 ## 🛠️ Technologies Used
 
 - React Native CLI: The project is built using React Native CLI, a command-line tool for creating and managing React Native projects.
 - TypeScript: The entire project is developed using TypeScript, which enhances code maintainability and enables static typing.
 - PokeAPI: The app integrates with the PokeAPI (https://pokeapi.co/api/v2/) to fetch Pokemon data and display it in the app.
+
+
 
 ## ⚙️ Installation
 
@@ -69,3 +75,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙏 Acknowledgments
 
 The Pokedex project is made possible thanks to the incredible resources provided by the PokeAPI community (https://pokeapi.co/). Special thanks to all the contributors who have contributed to the development and maintenance of the PokeAPI.
+</div>
