@@ -182,9 +182,11 @@ const styles = StyleSheet.create({
     sectionTitle: {
         fontSize: 22,
         fontWeight: 'bold',
+        color: 'black',
     },
     sectionText: {
         fontSize: 19,
+        color: 'gray',
     },
     spriteScrollView: {
         flexDirection: 'row',

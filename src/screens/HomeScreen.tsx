@@ -59,6 +59,7 @@ export const HomeScreen = () => {
                 <TextInput
                     style={styles.searchInput}
                     placeholder="Search Pokemon"
+                    placeholderTextColor={'grey'}
                     value={searchText}
                     onChangeText={setSearchText}
                 />
@@ -123,10 +124,13 @@ const styles = StyleSheet.create({
     searchInput: {
         width: '90%',
         height: 40,
-        backgroundColor: '#ECE8EC',
+        backgroundColor: 'white',
         borderRadius: 10,
         paddingHorizontal: 16,
         marginBottom: 16,
+        color: 'black',
+        borderColor: 'grey',
+        borderWidth: 2,
     },
     flatListContent: {
         paddingTop: 16,
