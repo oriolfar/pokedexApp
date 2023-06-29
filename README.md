@@ -21,9 +21,9 @@ This is a mobile application developed using React Native CLI that serves as a P
 <p align="center"><em>Screenshot: Pokemon List</em></p>
 
 <div align="center">
-  <img src="./screenshots/Screenshot_loadMore.png" alt="Pokemon LoadMore" width="220" height="440">
-  <img src="./screenshots/Screenshot_loadRayquaza.png" alt="Pokemon PokemonFound" width="220" height="440">
-  <img src="./screenshots/Screenshot_rayquaza.png" alt="Pokemon PokemonDetails_Rayquaza" width="220" height="440">
+  <img src="./screenshots/Screenshot_loadMore.png" alt="Pokemon LoadMore" width="220" height="480">
+  <img src="./screenshots/Screenshot_loadRayquaza.png" alt="Pokemon PokemonFound" width="220" height="480">
+  <img src="./screenshots/Screenshot_rayquaza.png" alt="Pokemon PokemonDetails_Rayquaza" width="220" height="480">
 </div>
 <p align="center"><em>Screenshot: Pokemon Load More</em></p>
 
